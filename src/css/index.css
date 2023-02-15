@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #222629;
+}
+
+.custom-page {
+  margin-top: 4.75rem;
+  min-height: calc(100vh - 5rem);
+}
+
+::-webkit-scrollbar {
+  width: .3rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #222629;
+  border-radius: 100vw;
+  margin-block: .1rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #61892f;
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #86c232;
+  border-radius: 2rem;
+}

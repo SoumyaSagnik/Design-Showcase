@@ -1,0 +1,12 @@
+.c-item {
+    background-color: #6b6e70;
+    color: #222629;
+    font-size: 1.25rem;
+    list-style: none;
+    padding: .35rem 1rem .35rem .5rem;
+    cursor: pointer;
+}
+
+.c-item:hover {
+    background-color: #61892f;
+}

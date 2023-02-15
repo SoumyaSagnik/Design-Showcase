@@ -1,0 +1,104 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.5rem;
+    background-color: #222629;
+    color: #6b6e70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 7vw;
+    border-bottom: .1rem solid #61892f;
+    z-index: 3;
+}
+
+#logo {
+    cursor: pointer;
+    transition: text-shadow .5s, color .5s;
+    font-family: 'Babylonica', cursive;
+    font-size: 3rem;
+}
+
+#logo:hover {
+    text-shadow: 0 0 2rem rgba(0, 0, 0, 1);
+    color: #86c232;
+}
+
+.menu {
+    font-family: 'Lobster', cursive;
+    height: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin-right: 5vw;
+    font-size: 2rem;
+    gap: 1rem;
+    cursor: default;
+    height: 100%;
+}
+
+.menu ul li {
+    transition: text-shadow .5s, color .5s;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu ul li:hover {
+    text-shadow: 0 0 .5rem rgba(0, 0, 0, 1);
+    color: #86c232;
+}
+
+.category-menu {
+    position: absolute;
+    top: 4.4rem;
+    z-index: 2;
+    box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, 0.2);
+}
+
+.social-menu {
+    position: absolute;
+    top: 4.4rem;
+    z-index: 2;
+    box-shadow: 0 .5rem 1rem 0 rgba(0, 0, 0, 0.2);
+    right: 5vw;
+}
+
+.social-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (max-width: 450px) {
+    #logo {
+        font-size: 2.5rem;
+    }
+
+    .menu ul {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #logo {
+        font-size: 2rem;
+    }
+
+    .menu ul {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #logo {
+        font-size: 1.75rem;
+    }
+
+    .menu ul {
+        font-size: 1.25rem;
+    }
+}

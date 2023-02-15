@@ -1,0 +1,18 @@
+.link-button {
+    scale: 0;
+    visibility: hidden;
+    width: 2.25rem;
+    border-radius: .5rem;
+    transition: scale .3s .4s, visibility .2s;
+    background-color: #faf5ef;
+    cursor: pointer;
+}
+
+.link-button img {
+    width: 100%;
+}
+
+.link-button:hover {
+    filter: brightness(1.5);
+    box-shadow: 0 0 .2rem black;
+}

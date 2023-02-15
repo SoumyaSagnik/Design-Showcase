@@ -1,0 +1,30 @@
+#App {
+    margin-top: 5rem;
+    min-height: calc(100vh - 5rem);
+    width: 65rem;
+}
+
+.card-container {
+    display: flex;
+    padding: 5rem 2rem;
+    padding-top: 10vh;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1050px) {
+    #App {
+        width: 95vw;
+    }
+
+    .card-container {
+        padding-top: 7.5vh;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card-container {
+        justify-content: center;
+        padding-top: 5vh;
+    }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "description": "Rainbow mouse trail",
+    "type": "Mouse Trail",
+    "link": "https://rainbow-trail-ssk.netlify.app/",
+    "git": "https://github.com/SoumyaSagnik/Design/tree/main/RainbowTrail"
+  },
+  {
+    "id": "2",
+    "description": "Constellation mouse trail",
+    "type": "Mouse Trail",
+    "link": "https://constellation-trail-ssk.netlify.app/",
+    "git": "https://github.com/SoumyaSagnik/Design/tree/main/ConstellationTrail"
+  },
+  {
+    "id": "3",
+    "description": "Expanding cards",
+    "type": "Cards",
+    "link": "https://expanding-cards-ssk.netlify.app/",
+    "git": "https://github.com/SoumyaSagnik/Design/tree/main/ExpandingCard"
+  }
+]
