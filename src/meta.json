@@ -19,5 +19,12 @@
     "type": "Cards",
     "link": "https://expanding-cards-ssk.netlify.app/",
     "git": "https://github.com/SoumyaSagnik/Design/tree/main/ExpandingCard"
+  },
+  {
+    "id": "4",
+    "description": "Background animation balls",
+    "type": "Background",
+    "link": "https://background-balls-ssk.netlify.app/",
+    "git": "https://github.com/SoumyaSagnik/Design/tree/main/Background%20Balls"
   }
 ]

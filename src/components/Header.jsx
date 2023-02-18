@@ -38,6 +38,7 @@ const Header = ({ applyFilter, logoClick }) => {
               filter={() => applyFilter("Mouse Trail")}
             />
             <MenuItem category={"Cards"} filter={() => applyFilter("Cards")} />
+            <MenuItem category={"Background"} filter={() => applyFilter("Background")} />
           </div>
         )}
         {socialMenu && (
