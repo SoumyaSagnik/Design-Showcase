@@ -26,5 +26,12 @@
     "type": "Background",
     "link": "https://background-balls-ssk.netlify.app/",
     "git": "https://github.com/SoumyaSagnik/Design/tree/main/Background%20Balls"
+  },
+  {
+    "id": "5",
+    "description": "Background animation eyes",
+    "type": "Background",
+    "link": "https://background-eyes-ssk.netlify.app/",
+    "git": "https://github.com/SoumyaSagnik/Design/tree/main/Background%20Eyes"
   }
 ]
