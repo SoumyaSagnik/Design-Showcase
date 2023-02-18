@@ -7,6 +7,10 @@ import { useState } from "react";
 const App = () => {
   const [filteredItem, setFilteredItem] = useState(items);
   function applyFilter(filter) {
+    if (filter === "none") {
+      setFilteredItem(items);
+      return;
+    }
     const filteredItems = items.filter(item => (
       item.type === filter
     ));

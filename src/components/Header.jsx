@@ -34,6 +34,10 @@ const Header = ({ applyFilter, logoClick }) => {
             onMouseLeave={() => setCategoryMenu(false)}
           >
             <MenuItem
+              category={"All"}
+              filter={() => applyFilter("none")}
+            />
+            <MenuItem
               category={"Mouse Trail"}
               filter={() => applyFilter("Mouse Trail")}
             />
