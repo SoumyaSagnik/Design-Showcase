@@ -43,6 +43,7 @@ const Header = ({ applyFilter, logoClick }) => {
             />
             <MenuItem category={"Cards"} filter={() => applyFilter("Cards")} />
             <MenuItem category={"Background"} filter={() => applyFilter("Background")} />
+            <MenuItem category={"Carousel"} filter={() => applyFilter("Carousel")} />
           </div>
         )}
         {socialMenu && (

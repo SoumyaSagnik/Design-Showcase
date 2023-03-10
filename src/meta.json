@@ -33,5 +33,12 @@
     "type": "Background",
     "link": "https://background-eyes-ssk.netlify.app/",
     "git": "https://github.com/SoumyaSagnik/Design/tree/main/Background%20Eyes"
+  },
+  {
+    "id": "6",
+    "description": "3D Carousel Cube",
+    "type": "Carousel",
+    "link": "https://carousel-cube-ssk.netlify.app/",
+    "git": "https://github.com/SoumyaSagnik/Design/tree/main/Carousel%20Cube"
   }
 ]
