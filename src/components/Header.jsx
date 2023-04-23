@@ -33,17 +33,20 @@ const Header = ({ applyFilter, logoClick }) => {
             onMouseEnter={() => setCategoryMenu(true)}
             onMouseLeave={() => setCategoryMenu(false)}
           >
-            <MenuItem
-              category={"All"}
-              filter={() => applyFilter("none")}
-            />
+            <MenuItem category={"All"} filter={() => applyFilter("none")} />
             <MenuItem
               category={"Mouse Trail"}
               filter={() => applyFilter("Mouse Trail")}
             />
             <MenuItem category={"Cards"} filter={() => applyFilter("Cards")} />
-            <MenuItem category={"Background"} filter={() => applyFilter("Background")} />
-            <MenuItem category={"Carousel"} filter={() => applyFilter("Carousel")} />
+            <MenuItem
+              category={"Background"}
+              filter={() => applyFilter("Background")}
+            />
+            <MenuItem
+              category={"Carousel"}
+              filter={() => applyFilter("Carousel")}
+            />
           </div>
         )}
         {socialMenu && (
@@ -54,7 +57,7 @@ const Header = ({ applyFilter, logoClick }) => {
           >
             <MenuItem
               category={"Portfolio"}
-              socialLink={"http://portfolio.soumyakhanda.tech/"}
+              socialLink={"https://soumyakhanda.netlify.app/"}
             />
             <MenuItem
               category={"Blogs"}
@@ -62,9 +65,7 @@ const Header = ({ applyFilter, logoClick }) => {
             />
             <MenuItem
               category={"Linkedin"}
-              socialLink={
-                "https://www.linkedin.com/in/soumya-sagnik-khanda-0446641b8/"
-              }
+              socialLink={"https://www.linkedin.com/in/soumyakhanda/"}
             />
             <MenuItem
               category={"GitHub"}
